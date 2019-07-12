@@ -10,7 +10,6 @@ if ! id -u ${FIRST_USER_NAME} >/dev/null 2>&1; then
 fi
 echo "${FIRST_USER_NAME}:${FIRST_USER_PASS}" | chpasswd
 echo "root:root" | chpasswd
-chage -d0 ${FIRST_USER_NAME}
 EOF
 
 

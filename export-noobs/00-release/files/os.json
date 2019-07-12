@@ -1,7 +1,7 @@
 {
     "description": "NOOBS_DESCRIPTION",
     "feature_level": 35120124,
-    "kernel": "4.19",
+    "kernel": "4.14",
     "name": "NOOBS_NAME",
     "password": "raspberry",
     "release_date": "UNRELEASED",
@@ -12,9 +12,9 @@
         "Pi Zero",
         "Pi 3",
         "Pi Compute Module 3",
-        "Pi 4"
+	"Pi 4"
     ],
     "url": "http://www.raspbian.org/",
-    "username": "pi",
-    "version": "buster"
+    "username": "qtum",
+    "version": "stretch"
 }
