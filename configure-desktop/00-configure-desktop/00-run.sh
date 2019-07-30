@@ -9,6 +9,7 @@ install -m 644 files/6.png "${ROOTFS_DIR}/usr/share/rpd-wallpaper/"
 
 mkdir -p "${ROOTFS_DIR}/home/${FIRST_USER_NAME}/Desktop/"
 install -m 644 files/Qtum.desktop "${ROOTFS_DIR}/home/${FIRST_USER_NAME}/Desktop/"
+install -m 644 files/Qtum-testnet.desktop "${ROOTFS_DIR}/home/${FIRST_USER_NAME}/Desktop/"
 
 on_chroot << EOF
 #sed -ri 's,wallpaper=.*?,wallpaper=/usr/share/rpd-wallpaper/1.png,' /etc/lightdm/pi-greeter.conf
