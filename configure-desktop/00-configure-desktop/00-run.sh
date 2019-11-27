@@ -6,6 +6,13 @@ install -m 644 files/3.png "${ROOTFS_DIR}/usr/share/rpd-wallpaper/"
 install -m 644 files/4.png "${ROOTFS_DIR}/usr/share/rpd-wallpaper/"
 install -m 644 files/5.png "${ROOTFS_DIR}/usr/share/rpd-wallpaper/"
 install -m 644 files/6.png "${ROOTFS_DIR}/usr/share/rpd-wallpaper/"
+install -m 644 files/6.png "${ROOTFS_DIR}/usr/share/rpd-wallpaper/"
+install -m 644 files/7.png "${ROOTFS_DIR}/usr/share/rpd-wallpaper/"
+install -m 644 files/8.png "${ROOTFS_DIR}/usr/share/rpd-wallpaper/"
+install -m 644 files/9.png "${ROOTFS_DIR}/usr/share/rpd-wallpaper/"
+install -m 644 files/10.png "${ROOTFS_DIR}/usr/share/rpd-wallpaper/"
+install -m 644 files/11.png "${ROOTFS_DIR}/usr/share/rpd-wallpaper/"
+
 
 mkdir -p "${ROOTFS_DIR}/home/${FIRST_USER_NAME}/Desktop/"
 install -m 644 files/Qtum.desktop "${ROOTFS_DIR}/home/${FIRST_USER_NAME}/Desktop/"
